@@ -1,0 +1,43 @@
+img {
+    /* Your code goes here */
+    position: relative;
+    left: 10px;
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 0 2px gray;
+    background-color: beige;
+}
+
+.words {
+    font-family: impact;
+    font-size: 60px;
+}
+
+.first {
+    /* Your code goes here */
+    position: absolute;
+    top: 130px;
+    left: 210px;
+    z-index: 1;
+}
+
+.heart {
+    color: red;
+    font-size: 80px;
+    /* Your code goes here */
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    z-index: 1;
+}
+
+.last {
+    /* Your code goes here */
+    position: absolute;
+    top: 195px;
+    left: 210px;
+    z-index: 1;
+}
